@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<root>
+  <list>
+    <item>
+      <name>Emacs Mode</name>
+      <list>
+	<item>
+	  <name>Control+PNBF to Up/Down/Left/Right</name>
+	  <appendix>(when there are no other modifiers and not firefox)</appendix>
+	  <identifier>option.emacsmode_controlPNBF_nomodifiers_firefox</identifier>
+	  <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX</not>
+	  <autogen>--KeyToKey-- KeyCode::P, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
+	  <autogen>--KeyToKey-- KeyCode::N, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
+	  <autogen>--KeyToKey-- KeyCode::B, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_LEFT</autogen>
+	  <autogen>--KeyToKey-- KeyCode::F, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT</autogen>
+	</item>
+      </list>
+    </item>
+  </list>
+</root>
