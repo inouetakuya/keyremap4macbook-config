@@ -1,5 +1,51 @@
 <?xml version="1.0"?>
 <root>
   <list>
+    <item>
+      <name>Cocoa Mode</name>
+      <list>
+        <item>
+          <name>Control+D to Forward Delete</name>
+          <identifier>option.cocomode_controlD</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::D, VK_CONTROL | ModifierFlag::NONE, KeyCode::FORWARD_DELETE</autogen>
+        </item>
+        <item>
+          <name>Control+H to Delete</name>
+          <identifier>option.cocoamode_controlH</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::H, VK_CONTROL, KeyCode::DELETE</autogen>
+        </item>
+        <item>
+          <name>Control+PNBF to Up/Down/Left/Right</name>
+          <appendix>(when there are no other modifiers)</appendix>
+          <identifier>option.cocoamode_controlPNBF_nomodifiers</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::P, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
+          <autogen>--KeyToKey-- KeyCode::N, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
+          <autogen>--KeyToKey-- KeyCode::B, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_LEFT</autogen>
+          <autogen>--KeyToKey-- KeyCode::F, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT</autogen>
+        </item>
+        <item>
+          <name>Control+Y to Command+V</name>
+          <identifier>option.cocoamode_controlY</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::Y, VK_CONTROL, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
+        </item>
+        <item>
+          <name>Control+AE to Command+Left/Right</name>
+          <identifier>option.cocoamode_controlAE</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::A, VK_CONTROL, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+          <autogen>--KeyToKey-- KeyCode::E, VK_CONTROL, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+        </item>
+        <item>
+          <name>Control+K to Command+Shift+Right,Command+X</name>
+          <identifier>option.cocoamode_controlK</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::K, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
+        </item>
+      </list>
+    </item>
   </list>
 </root>
