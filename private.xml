@@ -47,5 +47,61 @@
         </item>
       </list>
     </item>
+
+    <item>
+      <name>Draft</name>
+      <list>
+        <item>
+          <name>Control+I to Tab</name>
+          <identifier>option.draftmode_controlI</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
+        </item>
+        <item>
+          <name>Control+[ to Escape</name>
+          <identifier>option.draftmode_controlLeftbracket</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::BRACKET_LEFT, VK_CONTROL, KeyCode::ESCAPE</autogen>
+        </item>
+        <item>
+          <name>Control+J to Return</name>
+          <appendix>(not browser, muCommander)</appendix>
+          <identifier>remap.draftmode_controlJ2return</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, MUCOMMANDER</not>
+          <autogen>--KeyToKey-- KeyCode::J, VK_CONTROL, KeyCode::RETURN</autogen>
+        </item>
+        <item>
+          <name>Control+J to Enter</name>
+          <appendix>(not browser, muCommander)</appendix>
+          <identifier>remap.draftmode_controlJ2enter</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, MUCOMMANDER</not>
+          <autogen>--KeyToKey-- KeyCode::J, VK_CONTROL, KeyCode::ENTER</autogen>
+        </item>
+        <item>
+          <name>Control+M to Return</name>
+          <identifier>option.draftmode_controlM</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::M, VK_CONTROL, KeyCode::RETURN</autogen>
+        </item>
+        <item>
+          <name>Control+W to Command+X</name>
+          <identifier>option.draftmode_controlW</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::W, VK_CONTROL, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
+        </item>
+        <item>
+          <name>Control+/ to Command_Z</name>
+          <identifier>option.draftmode_controlSlash</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::SLASH, VK_CONTROL, KeyCode::Z, ModifierFlag::COMMAND_L</autogen>
+        </item>
+        <item>
+          <name>Control+S to Command+F</name>
+          <identifier>option.draftmode_controlS</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::S, VK_CONTROL, KeyCode::F, ModifierFlag::COMMAND_L</autogen>
+        </item>
+      </list>
+    </item>
   </list>
 </root>
