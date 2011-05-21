@@ -68,6 +68,13 @@
           <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
+          <name>Control+@ to Escape</name>
+          <appendix>(including Aptana)</appendix>
+          <identifier>option.draftmode_controlatmark</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, VK_CONTROL, KeyCode::ESCAPE</autogen>
+        </item>
+        <item>
           <name>Control+J to Return</name>
           <appendix>(not browser, muCommander)</appendix>
           <identifier>remap.draftmode_controlJ2return</identifier>
