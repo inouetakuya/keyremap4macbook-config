@@ -55,9 +55,9 @@
       <list>
         <item>
           <name>Control+I to Tab</name>
-          <appendix>(including Aptana)</appendix>
+          <appendix>(including Aptana, browser)</appendix>
           <identifier>option.draftmode_controlI</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
           <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
         </item>
         <item>
@@ -69,9 +69,9 @@
         </item>
         <item>
           <name>Control+@ to Escape</name>
-          <appendix>(including Aptana)</appendix>
+          <appendix>(including Aptana, browser)</appendix>
           <identifier>option.draftmode_controlatmark</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
           <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
