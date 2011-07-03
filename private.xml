@@ -61,6 +61,13 @@
           <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
         </item>
         <item>
+          <name>Control+T to Tab</name>
+          <appendix>(including Aptana, browser)</appendix>
+          <identifier>option.draftmode_controlT</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <autogen>--KeyToKey-- KeyCode::T, VK_CONTROL, KeyCode::TAB</autogen>
+        </item>
+        <item>
           <name>Control+[ to Escape</name>
           <appendix>(including Aptana, browser)</appendix>
           <identifier>option.draftmode_controlLeftbracket</identifier>
