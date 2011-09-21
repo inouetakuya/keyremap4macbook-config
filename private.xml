@@ -119,6 +119,20 @@
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA</not>
           <autogen>--KeyToKey-- KeyCode::S, VK_CONTROL, KeyCode::F, ModifierFlag::COMMAND_L</autogen>
         </item>
+        <item>
+          <name>Command_L to F11</name>
+          <appendix>(only virtual machine)</appendix>
+          <identifier>option.draftmode_command_L</identifier>
+          <only>VIRTUALMACHINE</only>
+          <autogen>--KeyToKey-- KeyCode::COMMAND_L, KeyCode::F11</autogen>
+        </item>
+        <item>
+          <name>Command_R to F12</name>
+          <appendix>(only virtual machine)</appendix>
+          <identifier>option.draftmode_command_R</identifier>
+          <only>VIRTUALMACHINE</only>
+          <autogen>--KeyToKey-- KeyCode::COMMAND_R, KeyCode::F12</autogen>
+        </item>
       </list>
     </item>
   </list>
