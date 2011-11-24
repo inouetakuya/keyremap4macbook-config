@@ -20,9 +20,9 @@
         <item>
           <name>Control+PNBF to Up/Down/Left/Right</name>
           <appendix>(when there are no other modifiers)</appendix>
-          <appendix>(including Aptana)</appendix>
+          <appendix>(including Aptana, PhpStorm)</appendix>
           <identifier>option.cocoamode_controlPNBF_nomodifiers</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, PHPSTORM</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
           <autogen>--KeyToKey-- KeyCode::P, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
           <autogen>--KeyToKey-- KeyCode::N, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
           <autogen>--KeyToKey-- KeyCode::B, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_LEFT</autogen>
@@ -69,16 +69,16 @@
         </item>
         <item>
           <name>Control+[ to Escape</name>
-          <appendix>(including Aptana, browser)</appendix>
+          <appendix>(including Aptana, PhpStorm, browser)</appendix>
           <identifier>option.draftmode_controlLeftbracket</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, PHPSTORM</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
           <autogen>--KeyToKey-- KeyCode::BRACKET_LEFT, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
           <name>Control+@ to Escape</name>
-          <appendix>(including Aptana, browser)</appendix>
+          <appendix>(including Aptana, PhpStorm, browser)</appendix>
           <identifier>option.draftmode_controlatmark</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, PHPSTORM</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
           <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
