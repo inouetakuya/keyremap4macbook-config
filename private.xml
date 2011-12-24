@@ -12,9 +12,9 @@
         </item>
         <item>
           <name>Control+H to Delete</name>
-          <appendix>(including Aptana)</appendix>
+          <appendix>(including Aptana, PhpStorm)</appendix>
           <identifier>option.cocoamode_controlH</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, PHPSTORM</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
           <autogen>--KeyToKey-- KeyCode::H, VK_CONTROL, KeyCode::DELETE</autogen>
         </item>
         <item>
