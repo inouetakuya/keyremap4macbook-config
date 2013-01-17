@@ -21,6 +21,13 @@
           <autogen>--KeyToKey-- KeyCode::H, VK_CONTROL, KeyCode::DELETE</autogen>
         </item>
         <item>
+          <name>Control+I to Tab</name>
+          <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
+          <identifier>option.emacsmodeplus_controlI</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
+          <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
+        </item>
+        <item>
           <name>Control+PNBF to Up/Down/Left/Right</name>
           <appendix>(when there are no other modifiers)</appendix>
           <appendix>(including PhpStorm, RubyMine)</appendix>
@@ -56,13 +63,6 @@
     <item>
       <name>Draft</name>
       <list>
-        <item>
-          <name>Control+I to Tab</name>
-          <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
-          <identifier>option.draftmode_controlI</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
-          <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
-        </item>
         <item>
           <name>Control+T to Tab</name>
           <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
