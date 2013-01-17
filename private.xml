@@ -60,28 +60,28 @@
           <name>Control+I to Tab</name>
           <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
           <identifier>option.draftmode_controlI</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
         </item>
         <item>
           <name>Control+T to Tab</name>
           <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
           <identifier>option.draftmode_controlT</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::T, VK_CONTROL, KeyCode::TAB</autogen>
         </item>
         <item>
           <name>Control+[ to Escape</name>
           <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
           <identifier>option.draftmode_controlLeftbracket</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::BRACKET_LEFT, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
           <name>Control+@ to Escape</name>
           <appendix>(including PhpStorm, RubyMine, browser, ScreenSharing)</appendix>
           <identifier>option.draftmode_controlatmark</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
