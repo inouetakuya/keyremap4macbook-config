@@ -4,18 +4,18 @@
   
   <list>
     <item>
-      <name>Cocoa Mode</name>
+      <name>Emacs Mode Plus</name>
       <list>
         <item>
           <name>Control+D to Forward Delete</name>
-          <identifier>option.cocomode_controlD</identifier>
+          <identifier>option.emacsmodeplus_controlD</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::D, VK_CONTROL | ModifierFlag::NONE, KeyCode::FORWARD_DELETE</autogen>
         </item>
         <item>
           <name>Control+H to Delete</name>
           <appendix>(including Aptana, PhpStorm, RubyMine, ScreeenSharing)</appendix>
-          <identifier>option.cocoamode_controlH</identifier>
+          <identifier>option.emacsmodeplus_controlH</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
           <autogen>--KeyToKey-- KeyCode::H, VK_CONTROL, KeyCode::DELETE</autogen>
         </item>
@@ -23,7 +23,7 @@
           <name>Control+PNBF to Up/Down/Left/Right</name>
           <appendix>(when there are no other modifiers)</appendix>
           <appendix>(including Aptana, PhpStorm, RubyMine)</appendix>
-          <identifier>option.cocoamode_controlPNBF_nomodifiers</identifier>
+          <identifier>option.emacsmodeplus_controlPNBF_nomodifiers</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::P, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
           <autogen>--KeyToKey-- KeyCode::N, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
@@ -32,20 +32,20 @@
         </item>
         <item>
           <name>Control+Y to Command+V</name>
-          <identifier>option.cocoamode_controlY</identifier>
+          <identifier>option.emacsmodeplus_controlY</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::Y, VK_CONTROL, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
           <name>Control+AE to Command+Left/Right</name>
-          <identifier>option.cocoamode_controlAE</identifier>
+          <identifier>option.emacsmodeplus_controlAE</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::A, VK_CONTROL, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
           <autogen>--KeyToKey-- KeyCode::E, VK_CONTROL, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
           <name>Control+K to Command+Shift+Right,Command+X</name>
-          <identifier>option.cocoamode_controlK</identifier>
+          <identifier>option.emacsmodeplus_controlK</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::K, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
         </item>
