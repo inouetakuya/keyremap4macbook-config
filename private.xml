@@ -1,20 +1,7 @@
 <?xml version="1.0"?>
 <root>
-  <appdef>
-    <appname>PHPSTORM</appname>
-    <equal>com.jetbrains.PhpStorm</equal>
-  </appdef>
-
-  <appdef>
-    <appname>RUBYMINE</appname>
-    <equal>com.jetbrains.rubymine</equal>
-  </appdef>  
-
-  <appdef>
-    <appname>MUCOMMANDER</appname>
-    <equal>com.mucommander.muCommander</equal>
-  </appdef>
-
+  <include path="appdef.xml" />
+  
   <list>
     <item>
       <name>Cocoa Mode</name>
