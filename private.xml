@@ -4,27 +4,28 @@
   
   <list>
     <item>
-      <name>Cocoa Mode</name>
+      <name>Emacs Mode Plus</name>
       <list>
         <item>
           <name>Control+D to Forward Delete</name>
-          <identifier>option.cocomode_controlD</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <appendix>(when there are no other modifiers)</appendix>
+          <identifier>option.emacsmodeplus_controlD</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::D, VK_CONTROL | ModifierFlag::NONE, KeyCode::FORWARD_DELETE</autogen>
         </item>
         <item>
           <name>Control+H to Delete</name>
-          <appendix>(including Aptana, PhpStorm, RubyMine, ScreeenSharing)</appendix>
-          <identifier>option.cocoamode_controlH</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME</not>
+          <appendix>(including PhpStorm, RubyMine, ScreeenSharing)</appendix>
+          <identifier>option.emacsmodeplus_controlH</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME</not>
           <autogen>--KeyToKey-- KeyCode::H, VK_CONTROL, KeyCode::DELETE</autogen>
         </item>
         <item>
           <name>Control+PNBF to Up/Down/Left/Right</name>
           <appendix>(when there are no other modifiers)</appendix>
-          <appendix>(including Aptana, PhpStorm, RubyMine)</appendix>
-          <identifier>option.cocoamode_controlPNBF_nomodifiers</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, SCREEN_SHARING</not>
+          <appendix>(including PhpStorm, RubyMine)</appendix>
+          <identifier>option.emacsmodeplus_controlPNBF_nomodifiers</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::P, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
           <autogen>--KeyToKey-- KeyCode::N, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
           <autogen>--KeyToKey-- KeyCode::B, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_LEFT</autogen>
@@ -32,21 +33,21 @@
         </item>
         <item>
           <name>Control+Y to Command+V</name>
-          <identifier>option.cocoamode_controlY</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <identifier>option.emacsmodeplus_controlY</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::Y, VK_CONTROL, KeyCode::V, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
           <name>Control+AE to Command+Left/Right</name>
-          <identifier>option.cocoamode_controlAE</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <identifier>option.emacsmodeplus_controlAE</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::A, VK_CONTROL, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
           <autogen>--KeyToKey-- KeyCode::E, VK_CONTROL, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
           <name>Control+K to Command+Shift+Right,Command+X</name>
-          <identifier>option.cocoamode_controlK</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <identifier>option.emacsmodeplus_controlK</identifier>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::K, VK_CONTROL | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
         </item>
       </list>
@@ -57,68 +58,68 @@
       <list>
         <item>
           <name>Control+I to Tab</name>
-          <appendix>(including Aptana, PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
+          <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
           <identifier>option.draftmode_controlI</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::I, VK_CONTROL, KeyCode::TAB</autogen>
         </item>
         <item>
           <name>Control+T to Tab</name>
-          <appendix>(including Aptana, PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
+          <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
           <identifier>option.draftmode_controlT</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::T, VK_CONTROL, KeyCode::TAB</autogen>
         </item>
         <item>
           <name>Control+[ to Escape</name>
-          <appendix>(including Aptana, PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
+          <appendix>(including PhpStorm, RubyMine, browser, ScreeenSharing)</appendix>
           <identifier>option.draftmode_controlLeftbracket</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::BRACKET_LEFT, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
           <name>Control+@ to Escape</name>
-          <appendix>(including Aptana, PhpStorm, RubyMine, browser, ScreenSharing)</appendix>
+          <appendix>(including PhpStorm, RubyMine, browser, ScreenSharing)</appendix>
           <identifier>option.draftmode_controlatmark</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11</not>
           <autogen>--KeyToKey-- KeyCode::JIS_ATMARK, VK_CONTROL, KeyCode::ESCAPE</autogen>
         </item>
         <item>
           <name>Control+J to Return</name>
           <appendix>(not browser, muCommander)</appendix>
           <identifier>remap.draftmode_controlJ2return</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, MUCOMMANDER, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, MUCOMMANDER, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::J, VK_CONTROL, KeyCode::RETURN</autogen>
         </item>
         <item>
           <name>Control+J to Enter</name>
           <appendix>(not browser, muCommander)</appendix>
           <identifier>remap.draftmode_controlJ2enter</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, MUCOMMANDER, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, MUCOMMANDER, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::J, VK_CONTROL, KeyCode::ENTER</autogen>
         </item>
         <item>
           <name>Control+M to Return</name>
           <identifier>option.draftmode_controlM</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::M, VK_CONTROL, KeyCode::RETURN</autogen>
         </item>
         <item>
           <name>Control+W to Command+X</name>
           <identifier>option.draftmode_controlW</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::W, VK_CONTROL, KeyCode::X, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
           <name>Control+/ to Command_Z</name>
           <identifier>option.draftmode_controlSlash</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::SLASH, VK_CONTROL, KeyCode::Z, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
           <name>Control+S to Command+F</name>
           <identifier>option.draftmode_controlS</identifier>
-          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, ECLIPSE, FIREFOX, GOOGLE_CHROME, APTANA_STUDIO, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
+          <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::S, VK_CONTROL, KeyCode::F, ModifierFlag::COMMAND_L</autogen>
         </item>
         <item>
