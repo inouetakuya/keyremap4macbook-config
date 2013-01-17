@@ -8,6 +8,7 @@
       <list>
         <item>
           <name>Control+D to Forward Delete</name>
+          <appendix>(when there are no other modifiers)</appendix>
           <identifier>option.emacsmodeplus_controlD</identifier>
           <not>EMACS, TERMINAL, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION, X11, FIREFOX, GOOGLE_CHROME, PHPSTORM, RUBYMINE, SCREEN_SHARING</not>
           <autogen>--KeyToKey-- KeyCode::D, VK_CONTROL | ModifierFlag::NONE, KeyCode::FORWARD_DELETE</autogen>
